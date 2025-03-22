@@ -160,7 +160,7 @@ def sync_user(user_email, entra_group_name):
 def main(req: func.HttpRequest) -> func.HttpResponse:
     """
     Deployed to Azure:
-      https://<YourFunctionAppName>.azurewebsites.net/api/syncUserFunction?userEmail=user@example.com&entraGroupName=Frontend%20Team.
+      https://ghub-entra-group-automation.azurewebsites.net/api/syncUserFunction?userEmail=user@example.com&entraGroupName=Frontend%20Team.
     """
     logging.info("SyncUserFunction triggered for Entra->GitHub membership.")
 
