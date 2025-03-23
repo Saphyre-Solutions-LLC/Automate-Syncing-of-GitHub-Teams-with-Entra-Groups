@@ -24,10 +24,24 @@ GITHUB_TOKEN = os.getenv("GITHUB_TOKEN") # e.g. "ghp_..."
 # Adjust as needed for your organization
 # ---------------------------------------------------------
 ENTRA_TO_GITHUB_MAP = {
-    "Frontend Team.": "frontend-team",
-    "Backend Services Team.": "backend-services-team",
-    "AI & ML Team.": "ai-ml-team"
-    # Add more mappings here...
+    "AI & Machine Learning Team.": "ai-machine-learning-team",
+    "All Company": "all-company",
+    "Backend Development Team.": "backend-development-team",
+    "Cloud Engineering Team.": "cloud-engineering-team",
+    "Compliance & Governance Team.": "compliance-governance-team",
+    "Cybersecurity Team.": "cybersecurity-team",
+    "Data Engineering Team.": "data-engineering-team",
+    "Developer Relations & Community Engagement Team.": "developer-relations-community-engagement-team",
+    "DevOps & Automation Team.": "devops-automation-team",
+    "Frontend Development Team.": "frontend-development-team",
+    "Network Engineering Team.": "network-engineering-team",
+    "Product Management Team.": "product-management-team",
+    "Research & Development (R&D) Team.": "research-development-team",
+    "Sales & Business Development Team.": "sales-business-development-team",
+    "Saphyre Solutions LLC": "saphyre-solutions-llc",
+    "Software Development Team.": "software-development-team",
+    "Technical Support & IT Operations Team.": "technical-support-it-operations-team",
+    "UI/UX & Design Team.": "ui-ux-design-team"
 }
 
 # ---------------------------------------------------------
